@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="center">
+        <div class="result">
+            <h6 style="color: #fff;">Result</h6>
+            <div class="null" id="number">&#63;</div>
+        </div>
+        <input type="number" placeholder="X Value" id="X">
+        <br><br>
+        <input type="number" placeholder="Y Value" id="Y">
+        <br><br>
+        <input type="radio" name="type" id="div">
+        <b class="typecalcu">Div '/'</b>
+        <input type="radio" name="type" id="somme">
+        <b class="typecalcu">Addition '+'</b>
+        <input type="radio" name="type" id="multip">
+        <b class="typecalcu">Multiple '*'</b>
+        <input type="radio" name="type" id="mod">
+        <b class="typecalcu">Mod '%'</b>
+        <br><br>
+
+        <input type="button" value="Calculate" class="stylebtn" id="C">
+        <input type="button" value="Reset" class="stylebtn" id="R">
+
+    </div>
+
+</body>
+    <!--Read file script-->
+    <script type="text/javascript" src="script/control.js"></script>
+</html>
